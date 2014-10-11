@@ -1,0 +1,202 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Trebuchet MS;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.9) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.9)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(255,255,255,0.9) 0%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	background-color:#eee;
+}
+
+header {
+	background: #333;
+	box-shadow: 1px 1px 5px #999;
+	position: relative;
+}
+
+header .logo {
+	width: 35px;
+	margin: 5px 10px;
+}
+
+header span {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25pt;
+	position: absolute;
+	top: 3px;
+	left: 55px;
+}
+
+header .usuario_menu {
+	float: right;
+	padding-right: 10px;
+}
+
+header .usuario_menu li {
+	color: white !important;
+	float: left;
+	font-size: 9pt;
+}
+
+header .usuario_menu li a {
+	color: white;
+}
+
+header .usuario_menu li.division {
+	margin: 0 10px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30pt;
+}
+
+.canvas {
+	margin: 20px auto;
+	width: 1350px;
+}
+
+.fondoBlanco {
+	background: white;
+	margin: 30px;
+	margin-right: -5px;
+	border-radius: 10px;
+	padding: 34px 20px;
+	box-shadow: 0px 0px 15px #ccc;
+}
+
+form input.big {
+	width: 500px;
+	border: 2px solid #999;
+	font-size: 16pt;
+	text-align: center;
+	padding: 10px 0;
+	border-radius: 5px;
+	margin: 0;
+}
+
+
+.registro td {
+	padding: 5px 0;
+}
+
+.submit {
+	text-align: center;
+}
+
+.submit input {
+	font-size: 20pt;
+}
+
+.dashboard_icon {
+	border: 1px solid #fff;
+	border-radius: 10px;
+	padding: 20px;
+	margin: 10px;
+	width: 300px;
+	text-align: center;
+	box-shadow: 0px 0px 15px #ccc;
+	background-image: url(img/ico-check.png);
+	background-position: 1% 98%;
+	background-repeat: no-repeat;
+	height: 280px;
+	position: relative;
+	background-color: white;
+}
+
+.dashboard_icon h2 {
+	text-transform: uppercase;
+	color: #999;
+	font-size: 10pt;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+.dashboard_icon:hover {
+	background-color: #fcfcfc;
+	cursor: pointer;
+}
+
+.dashboard_icon:hover.graficar {
+	background-image: url(img/ico-check.png), url(img/ico-grafico.png);
+	background-position: 1% 98%, 98% 98%;
+}
+
+.dashboard_icon:hover.editar {
+	background-image: url(img/ico-check.png), url(img/ico-edit.png);
+	background-position: 1% 98%, 98% 98%;
+}
+
+.dashboard_icon.nobg {
+	background: #fff !important;
+}
+
+.dashboard_icon .unflip {
+	float: right;
+	width: 20px;
+}
+
+.dashboard_icon img.icon {
+	width: 150px;
+	height: 150px;
+}
+
+.dashboard_icon .status {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 34pt;
+	text-align: center;
+}
+
+.dashboard_icon .description {
+	color: #999;
+	font-size: 12pt;
+}
+
+.dashboard_icon .description small {
+	font-size: 8pt;
+}
+
+.subh1 {
+	text-align: center;
+	font-size: 9pt;
+	color: #999;
+	position: relative;
+	top: -20px;
+}
+
+h2 {
+	margin: 0 0 10px; 0;
+	font-size: 14pt;
+}
+
+.flipicon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 40px;
+}
+
+.flip_form {
+	width: 80%;
+	margin: 20px auto;
+}
+
+.flip_form td {
+	height: 80px;
+	font-size: 9pt;
+	color: #666;
+}
+
+.form_error {
+	font-size: 8pt;
+	color: red;
+	text-align: center;
+	padding-top: 3px;
+}
